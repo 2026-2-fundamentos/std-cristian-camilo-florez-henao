@@ -1,4 +1,4 @@
-```import glob
+import glob
 import os.path
 import shutil
 import string
@@ -159,4 +159,4 @@ for file in glob.glob(f"{OUTPUT_FOLDER}/*"):
 # -----------------------------------------------------------------------------
 
 end_time = time.time()
-print(f"Tiempo de ejecución: {end_time - start_time:.2f} segundos")```
+print(f"Tiempo de ejecución: {end_time - start_time:.2f} segundos")`
